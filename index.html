@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio estágio Ribeirão Preto</title>
+    <script type="module" src="/src/main.js" defer></script>
+    <link rel="shortcut icon" href="./img/faveicon.png" type="faveicon/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+       
+        <section class="questao1">
+            <h2>Questao 1</h2>
+            <span></span>
+        </section>
+        
+        <section class="questao2">
+            <h2>Questão 2:</h2>
+            <legend>Informe um número e veja se ele pertence a sequencia de fibonacci:</legend>
+            <form>
+                <input id="inputNumber" type="number">
+                <button id="enviar">Enviar</button>
+            </form>
+
+            <span id="isFibonacci"></span>
+        </section>
+
+        <section class="questao3">
+            <h2>Questão 3: Descubra a lógica e complete o elemento:</h2>
+            <ol type="a">
+                <li> 1, 3, 5, 7, 9 (soma 2)</li>
+                <li>2, 4, 8, 16, 32, 64, 128 (mutiplos de 2)</li>
+                <li>0, 1, 4, 9, 16, 25, 36, 49(sequencia de numeros quadrados)</li>
+                <li>4, 16, 36, 64, 100 (numeros quadrados pares)</li>
+                <li>1, 1, 2, 3, 5, 8, 13 (sequencia de fibonacci)</li>
+                <li>2,10, 12, 16, 17, 18, 19, 22</li>
+            </ol>
+        </section>
+
+        <section class="questao4">
+            <h2>Questão 4:</h2>
+            <span>Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente.<br> Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+                Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+            </span>
+            <br>
+            <span><br>
+                R: Ligaria o primeiro interruptor, espearia um tempo, desligaria e ligaria o segundo interruptor, iria na sala, veria qual lampadara estaria acessa, então já saberia que o segundo interruptor liga ela, iria para as outras duas e tocaria nelas, se uma estivesse quente, saberia que o 
+                primeiro ligou ela e a outra seria o terceiro;
+            </span>
+
+        <section class="questao5">
+            <h2>Questão 5:</h2>
+            <legend>Informe uma palavra:</legend>
+            <form>
+                <input type="text" id="revertText">
+                <button id="sandText">Enviar</button>
+            </form>
+            <span class="hide">A frase invertida é:</span>
+        </section>    
+        </section>
+
+    </div>
+    
+</body>
+
+</html>
